@@ -4,42 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="google-site-verification" content="ewPT5qOB_1-Ai_2nCBFDGpw_QztXAR4TbURHd1U8cnM" />
   <script language=JavaScript>
-<!--
 
-//edit by Alexander Eric
-
-
-var message="Cuba Buat Apa tu?";
-
-///////////////////////////////////
-function clickIE4(){
-if (event.button==2){
-alert(message);
-return false;
-}
-}
-
-function clickNS4(e){
-if (document.layers||document.getElementById&&!document.all){
-if (e.which==2||e.which==3){
-alert(message);
-return false;
-}
-}
-}
-
-if (document.layers){
-document.captureEvents(Event.MOUSEDOWN);
-document.onmousedown=clickNS4;
-}
-else if (document.all&&!document.getElementById){
-document.onmousedown=clickIE4;
-}
-
-document.oncontextmenu=new Function("alert(message);return false")
-
-// -->
-</script>
 <style>
 body {font-family: Arial, Helvetica, sans-serif;}
 form {border: 3px solid #f1f1f1;}
@@ -104,7 +69,17 @@ span.psw {
 }
 </style>
 </head>
-  
+</script>
+<body oncontextmenu="return false;">
+  <!--
+
+//edit by Alexander Eric
+
+
+var message="Cuba Buat Apa tu?";
+
+///////////////////////////////////
+function clickIE4(){
 if (event.button==2){
 alert(message);
 return false;
@@ -130,9 +105,8 @@ document.onmousedown=clickIE4;
 
 document.oncontextmenu=new Function("alert(message);return false")
 
-// --> 
+// -->
 </script>
-<body oncontextmenu="return false;">
 <body>
 <center>
 <h2>𝔻𝕒𝕗𝕥𝕒𝕣 𝕄𝕒𝕤𝕦𝕜</h2>
